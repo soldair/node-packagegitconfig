@@ -1,0 +1,29 @@
+{
+  "name": "packagegitconfig",
+  "version": "0.0.0",
+  "description": "find the git folder for your package and parse the .git/config file into a useful data structure. also adds the github web url for the repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-packagegitconfig.git"
+  },
+  "keywords": [
+    "gitconfig",
+    "module",
+    "github"
+  ],
+  "author": "Ryan Day",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "packageroot": "0.0.0",
+    "github-url": "~1.0.0",
+    "gitconfiglocal": "0.0.0"
+  },
+  "devDependencies": {
+    "tape": "~0.3.3"
+  }
+}
