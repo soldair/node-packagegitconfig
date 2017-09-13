@@ -19,7 +19,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "packageroot": "0.0.0",
+    "packageroot": "~1.0.0",
     "github-url": "~1.0.0",
     "gitconfiglocal": "0.0.0"
   },
